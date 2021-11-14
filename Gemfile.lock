@@ -47,6 +47,8 @@ GEM
     activerecord (6.1.4.1)
       activemodel (= 6.1.4.1)
       activesupport (= 6.1.4.1)
+    activerecord-cte (0.2.0)
+      activerecord
     activestorage (6.1.4.1)
       actionpack (= 6.1.4.1)
       activejob (= 6.1.4.1)
@@ -208,6 +210,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-cte
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
